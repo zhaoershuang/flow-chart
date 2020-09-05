@@ -1,1 +1,115 @@
-<mxfile host="app.diagrams.net" modified="2020-09-05T07:51:21.649Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="13.6.6" etag="Xm2PS9ugN8bGPGy4rd-x" type="github"><diagram id="QRDxQQ2C5wzyhTnRsiw8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-05T09:00:09.015Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="r2SmAppPi1JmFO0td0UP" version="13.6.6" type="github">
+  <diagram id="QRDxQQ2C5wzyhTnRsiw8" name="第 1 页">
+    <mxGraphModel dx="1422" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bdnzi7HTdeU9572U6ThC-1" value="rys_order&#xa;(订单主表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="529" y="-36" width="109" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-2" value="主键&#xa;订单编号&#xa;用户id&#xa;用户姓名&#xa;用户手机号&#xa;省&#xa;市&#xa;区&#xa;渠道&#xa;总金额&#xa;结算金额&#xa;实付金额&#xa;状态&#xa;跟进状态&#xa;备注&#xa;外部订单编号&#xa;外部订单信息&#xa;跟进人id&#xa;跟进人姓名&#xa;跟进人部门&#xa;跟进人主管&#xa;创建时间&#xa;修改时间&#xa;支付时间&#xa;删除状态&#xa;是否续签&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-1">
+          <mxGeometry y="38" width="109" height="437" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-4" value="rys_order_sub&#xa;(子订单表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="729" y="-36" width="118" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-5" value="主键&#xa;子订单编号&#xa;主订单id&#xa;状态&#xa;原金额&#xa;实际处理金额（未）&#xa;优惠id&#xa;交易类型&#xa;交易编号&#xa;三方交易编号&#xa;支付完成时间&#xa;拓展信息&#xa;创建时间&#xa;修改时间&#xa;删除状态&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Verdana;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-4">
+          <mxGeometry y="38" width="118" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-6" value="rys_order_product&#xa;(商品表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="916" y="-36" width="118" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-7" value="主键&#xa;主订单id&#xa;子订单id&#xa;商品id&#xa;数量&#xa;单价&#xa;商品名称&#xa;省&#xa;市&#xa;区&#xa;类型（正常-失效）&#xa;拓展信息&#xa;创建时间&#xa;修改时间&#xa;删除状态&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Verdana;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-6">
+          <mxGeometry y="38" width="118" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-29" value="rys_order_promotion&#xa;(订单-优惠品)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="724" y="285" width="134" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-30" value="主键&#xa;主订单id&#xa;分类id&#xa;商机id&#xa;创建时间&#xa;修改时间&#xa;删除状态&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Verdana;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-29">
+          <mxGeometry y="38" width="134" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-48" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="852" y="102" as="sourcePoint" />
+            <mxPoint x="912" y="102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-49" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="651" y="120" as="sourcePoint" />
+            <mxPoint x="711" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-51" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="651" y="375" as="sourcePoint" />
+            <mxPoint x="711" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-8" value="拓展信息(商品表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="141" width="118" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-9" value="商品分类信息&#xa;商品sku信息" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Verdana;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-8">
+          <mxGeometry y="38" width="118" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-53" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1039" y="193" as="sourcePoint" />
+            <mxPoint x="1099" y="193" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-54" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="514" y="24" as="sourcePoint" />
+            <mxPoint x="440" y="24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-55" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="518" y="197" as="sourcePoint" />
+            <mxPoint x="444" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-56" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515" y="379" as="sourcePoint" />
+            <mxPoint x="441" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-20" value="rys_order_clue&#xa;(订单-商机)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="314" y="-66.5" width="118" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-21" value="主键&#xa;主订单id&#xa;分类id&#xa;商机id&#xa;创建时间&#xa;修改时间&#xa;删除状态&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Verdana;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-20">
+          <mxGeometry y="38" width="118" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-35" value="rys_order_customer&#xa;(订单-客户)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="314" y="137" width="118" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-36" value="主键&#xa;主订单id&#xa;客户id&#xa;创建时间&#xa;修改时间&#xa;删除状态&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Verdana;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-35">
+          <mxGeometry y="38" width="118" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-33" value="rys_order_contract&#xa;(订单-合同)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="314" y="305" width="118" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-34" value="主键&#xa;主订单id&#xa;合同id&#xa;合同编号&#xa;创建时间&#xa;修改时间&#xa;删除状态&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Verdana;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-33">
+          <mxGeometry y="38" width="118" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-37" value="rys_order_log&#xa;(订单-操作记录)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="916" y="283" width="121" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-38" value="主键&#xa;主订单id&#xa;操作人id&#xa;操作人名称&#xa;类型&#xa;详细描述&#xa;拓展信息&#xa;创建时间&#xa;修改时间&#xa;删除状态&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Verdana;" vertex="1" parent="bdnzi7HTdeU9572U6ThC-37">
+          <mxGeometry y="38" width="121" height="178" as="geometry" />
+        </mxCell>
+        <mxCell id="bdnzi7HTdeU9572U6ThC-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.645;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" target="bdnzi7HTdeU9572U6ThC-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="584" y="447" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="584" y="519" />
+              <mxPoint x="994" y="519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
