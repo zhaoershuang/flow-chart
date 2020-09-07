@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T08:55:57.015Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="13.6.6" etag="xrcRYQuUPo8cWRO-PbND" type="github"><diagram id="X2W-fS-ZKdY22iEOxHln">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-07T10:00:48.992Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Zpa5IejP2CCwMJjy0YOz" version="13.6.6" type="github">
+  <diagram id="X2W-fS-ZKdY22iEOxHln" name="第 1 页">
+    <mxGraphModel dx="2873" dy="1278" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-42" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fontSize=14;align=left;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-97" y="-18" width="568" height="554" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-34" value="rys_order_commission_flow&#xa;(分佣订单表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="22" width="208" height="471" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-35" value="主键id&#xa;订单id&#xa;订单状态&#xa;订单编号&#xa;订单总金额&#xa;订单抵扣金额&#xa;订单应付金额&#xa;下单时间&#xa;订单省&#xa;订单市&#xa;订单区&#xa;分佣类型&#xa;应付佣金金额&#xa;分销商id&#xa;销售id&#xa;状态&#xa;结算状态&#xa;结算时间&#xa;创建时间&#xa;修改时间&#xa;员工需要分佣的金额 &#xa;顾客uid&#xa;顾客真实姓名&#xa;顾客微信昵称&#xa;顾客头像&#xa;订单是否签合同&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;direction=east;fontColor=#5C5C5C;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-34">
+          <mxGeometry y="38" width="208" height="433" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-36" value="rys_order_commission_product&#xa;(分佣商品表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="226" y="22" width="208" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-37" value="主键id&#xa;订单分佣表id&#xa;商品id&#xa;商品数量&#xa;商品名称&#xa;商品单价&#xa;购买时分佣规则id&#xa;购买时分佣比例&#xa;购买时分佣最大金额&#xa;状态&#xa;创建时间&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;direction=east;fontColor=#5C5C5C;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-36">
+          <mxGeometry y="38" width="208" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-32" value="rys_seller_commission_statistics&#xa;(分佣统计表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="226" y="269" width="208" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-33" value="主键&#xa;分销商id&#xa;员工id&#xa;手机号&#xa;头像&#xa;年份&#xa;月份&#xa;当月已结算总收益&#xa;已结算应付佣金&#xa;创建时间&#xa;修改时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;direction=east;fontColor=#5C5C5C;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-32">
+          <mxGeometry y="38" width="208" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-1" value="rys_seller&#xa;(分销商表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-904" y="21" width="109" height="516" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-2" value="主键&#xa;合作伙伴id&#xa;组织id&#xa;用户id&#xa;用户名&#xa;类型&#xa;公司名称&#xa;省&#xa;市&#xa;区&#xa;联系人&#xa;联系手机号&#xa;入驻日期&#xa;分佣类型&#xa;分佣百分比&#xa;状态&#xa;商家分佣级别&#xa;结算时间&#xa;结算类型&#xa;分佣结算层级&#xa;创建时间&#xa;修改时间&#xa;删除状态&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=14;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=3;fontFamily=Helvetica;fontColor=#5C5C5C;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-1">
+          <mxGeometry y="38" width="109" height="478" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-4" value="rys_staff&#xa;(员工表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-723" y="17" width="125" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-5" value="主键&#xa;分销商sellerId&#xa;用户id&#xa;用户名&#xa;是否管理员&#xa;头像(弃用)&#xa;真实姓名(弃用)&#xa;身份证&#xa;手机号&#xa;入驻日期&#xa;状态&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;fontColor=#5C5C5C;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-4">
+          <mxGeometry y="38" width="125" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-7" value="rys_seller_commission_rule_template&#xa;(分销商规则模板)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-723" y="369" width="285" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-8" value="主键&#xa;商机分佣级别&#xa;分佣类型&#xa;结算类型&#xa;结算时间&#xa;分佣结算层级&#xa;状态&#xa; " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;fontColor=#5C5C5C;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-7">
+          <mxGeometry y="38" width="285" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-16" value="rys_product_seller&#xa;(商品推广机构表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-389" y="366" width="211" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-17" value="主键&#xa;分销商sellerId&#xa;商品id&#xa;状态&#xa;创建时间&#xa;修改时间&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;fontColor=#5C5C5C;glass=0;rounded=0;imageAspect=0;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-16">
+          <mxGeometry y="38" width="211" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-46" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-790" y="185" as="sourcePoint" />
+            <mxPoint x="-729" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-47" value="1 : N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-779" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-48" value="1 : N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-291" y="315" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-51" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.438;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="n8a4Hbd_sMuRbTKC3EKm-4" target="n8a4Hbd_sMuRbTKC3EKm-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-668" y="11" as="sourcePoint" />
+            <mxPoint x="-495" y="6" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-668" y="-15" />
+              <mxPoint x="-495" y="-15" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-52" value="1 : N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-594" y="-38" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-11" value="rys_material_share&#xa;(分享记录表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-556" y="17" width="122" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-12" value="主键&#xa;用户id&#xa;手机号&#xa;姓名&#xa;头像&#xa;类型&#xa;关联素材id&#xa;状态&#xa;是否已读（未使用）&#xa;员工id&#xa;唯一标识&#xa;邀请码&#xa;创建时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;fontColor=#5C5C5C;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-11">
+          <mxGeometry y="38" width="122" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#006658;fontColor=#5C5C5C;" edge="1" parent="n8a4Hbd_sMuRbTKC3EKm-11" source="n8a4Hbd_sMuRbTKC3EKm-12" target="n8a4Hbd_sMuRbTKC3EKm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-27" value="rys_product_commission_rule&#xa;(商品分佣规则表)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;swimlaneLine=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
+          <mxGeometry x="-383" y="17" width="208" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-28" value="主键&#xa;商品id&#xa;分佣的百分比&#xa;最大金额&#xa;最小金额&#xa;状态&#xa;创建时间&#xa;修改时间&#xa;商品分类id&#xa;渠道&#xa;商品名称&#xa;支付类型&#xa;商品类目&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=13;verticalAlign=top;resizable=0;rotatable=0;part=1;horizontal=1;spacingTop=2;spacing=2;fontFamily=Helvetica;direction=east;fontColor=#5C5C5C;" vertex="1" parent="n8a4Hbd_sMuRbTKC3EKm-27">
+          <mxGeometry y="38" width="208" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n8a4Hbd_sMuRbTKC3EKm-53" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#006658;fillColor=#21C0A5;fontColor=#5C5C5C;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-292" y="359" as="sourcePoint" />
+            <mxPoint x="-292" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
