@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T11:26:36.206Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="B3vd8UzHwjMJKlQR_O0z" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T12:10:44.435Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="R8Ydjzv0OHPB2vQPOLfX" version="13.7.9" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1822" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
         <mxCell id="HQBOAhG516KsrZSRLM5k-72" value="rabbitmq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-71.5" y="222" width="66" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="HQBOAhG516KsrZSRLM5k-73" value="racketMq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HQBOAhG516KsrZSRLM5k-73" value="rocketMq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-71.5" y="286" width="66" height="35" as="geometry" />
         </mxCell>
         <mxCell id="HQBOAhG516KsrZSRLM5k-74" value="canal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
