@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T08:51:31.546Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="KgAQm1E6z3oMn0BM9ISm" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-17T08:59:29.009Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Rqznw8g_Vpw8XqCGRPYK" version="13.9.9" type="github">
   <diagram id="IIBS6fkNnDVbYmw5l0Qb" name="第 1 页">
-    <mxGraphModel dx="1822" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1822" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,50 +212,50 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-43" value="初始化" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="187" y="1481.5" width="78" height="34" as="geometry" />
+          <mxGeometry x="191" y="1479.5" width="78" height="34" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MGZbxWPmJeXFwLFbYCM5-45" target="MGZbxWPmJeXFwLFbYCM5-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-45" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="108" y="1488.25" width="21" height="20.5" as="geometry" />
+          <mxGeometry x="112" y="1486.25" width="21" height="20.5" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="217" y="1521" as="targetPoint" />
-            <mxPoint x="493" y="1514" as="sourcePoint" />
+            <mxPoint x="221" y="1519" as="targetPoint" />
+            <mxPoint x="497" y="1512" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="493" y="1521" />
-              <mxPoint x="493" y="1552" />
-              <mxPoint x="217" y="1552" />
+              <mxPoint x="497" y="1519" />
+              <mxPoint x="497" y="1550" />
+              <mxPoint x="221" y="1550" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-51" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="533" y="1478" width="34" height="18" as="geometry" />
+          <mxGeometry x="537" y="1476" width="34" height="18" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-53" value="退款" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="595" y="1481.5" width="78" height="34" as="geometry" />
+          <mxGeometry x="599" y="1479.5" width="78" height="34" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-55" value="&lt;br&gt;拒绝" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="339.5" y="1515.5" width="34" height="32" as="geometry" />
+          <mxGeometry x="343.5" y="1513.5" width="34" height="32" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-59" value="发起退款" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1475" width="58" height="18" as="geometry" />
+          <mxGeometry x="274" y="1473" width="58" height="18" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="MGZbxWPmJeXFwLFbYCM5-60">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="593" y="1498" as="targetPoint" />
+            <mxPoint x="597" y="1496" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-60" value="退款中" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="331" y="1481.5" width="78" height="34" as="geometry" />
+          <mxGeometry x="335" y="1479.5" width="78" height="34" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-39" value="子订单全部退款" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="421" y="1304" width="94" height="18" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-62" value="退款&#xa;审批" style="rhombus;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="469.5" y="1475" width="49" height="45" as="geometry" />
+          <mxGeometry x="473.5" y="1473" width="49" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
