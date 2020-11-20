@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T03:08:08.932Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="KRG71kmyNlUpCnIi4z8m" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T03:08:48.782Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="F69IyJQiPdx00A957tyP" version="13.9.9" type="github">
   <diagram id="IIBS6fkNnDVbYmw5l0Qb" name="第 1 页">
     <mxGraphModel dx="1822" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -187,7 +187,7 @@
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-16" value="是否&#xa;支付" style="rhombus;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="312.5" y="1230.5" width="49" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="MGZbxWPmJeXFwLFbYCM5-19" value="已支付" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="MGZbxWPmJeXFwLFbYCM5-19" value="支付完成" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="430" y="1236.5" width="78" height="34" as="geometry" />
         </mxCell>
         <mxCell id="MGZbxWPmJeXFwLFbYCM5-21" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
@@ -275,10 +275,10 @@
           <mxGeometry x="443.5" y="1561" width="49" height="45" as="geometry" />
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-19" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="446" y="1622" width="22" height="18" as="geometry" />
+          <mxGeometry x="446" y="1617" width="22" height="18" as="geometry" />
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-22" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="495.5" y="1564" width="22" height="18" as="geometry" />
+          <mxGeometry x="503" y="1564" width="22" height="18" as="geometry" />
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-25" value="拒绝" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="503" y="1448" width="34" height="18" as="geometry" />
@@ -328,7 +328,7 @@
           <mxGeometry x="223.5" y="2111" width="58" height="18" as="geometry" />
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-47" value="子订单状态流转" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="1768" width="94" height="18" as="geometry" />
+          <mxGeometry x="187.5" y="1780" width="94" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
