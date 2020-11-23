@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T10:31:00.646Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="gbpqcipVnPTt-u3DUaaK" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T02:16:15.126Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="pob7H5PCo9uTU8djA2YO" version="13.9.9" type="github">
   <diagram id="IIBS6fkNnDVbYmw5l0Qb" name="第 1 页">
     <mxGraphModel dx="2222" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="208" y="1903" width="109" height="319" as="geometry" />
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-80" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="409" y="1292" width="172" height="419" as="geometry" />
+          <mxGeometry x="409" y="1292" width="203" height="419" as="geometry" />
         </mxCell>
         <mxCell id="Agp9uXZa8RFQaNIwZVon-1" value="" style="ellipse;html=1;shape=startState;fillColor=#f8cecc;direction=west;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-147" y="465" width="30" height="30" as="geometry" />
@@ -269,19 +269,14 @@
         <mxCell id="n03CPPWkw_kPg7WMgdpi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="n03CPPWkw_kPg7WMgdpi-17" target="n03CPPWkw_kPg7WMgdpi-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n03CPPWkw_kPg7WMgdpi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="n03CPPWkw_kPg7WMgdpi-17" target="MGZbxWPmJeXFwLFbYCM5-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="547" y="1584" />
-              <mxPoint x="547" y="1254" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="n03CPPWkw_kPg7WMgdpi-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="n03CPPWkw_kPg7WMgdpi-17" target="n03CPPWkw_kPg7WMgdpi-84">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-17" value="全部&#xa;退款" style="rhombus;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="443.5" y="1561" width="49" height="45" as="geometry" />
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-19" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="513" y="1558" width="22" height="18" as="geometry" />
+          <mxGeometry x="499.5" y="1561" width="22" height="18" as="geometry" />
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-22" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="470.5" y="1617" width="22" height="18" as="geometry" />
@@ -315,12 +310,12 @@
             <mxPoint x="252" y="2087" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n03CPPWkw_kPg7WMgdpi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="n03CPPWkw_kPg7WMgdpi-39" target="n03CPPWkw_kPg7WMgdpi-83">
+        <mxCell id="n03CPPWkw_kPg7WMgdpi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n03CPPWkw_kPg7WMgdpi-39" target="MGZbxWPmJeXFwLFbYCM5-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="324" y="1870" as="targetPoint" />
+            <mxPoint x="349" y="2058.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="350" y="2059" />
-              <mxPoint x="350" y="2059" />
+              <mxPoint x="331" y="2059" />
+              <mxPoint x="331" y="1872" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -433,8 +428,8 @@
         <mxCell id="n03CPPWkw_kPg7WMgdpi-79" value="子订单状态流转" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-230" y="1780" width="94" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="n03CPPWkw_kPg7WMgdpi-83" value="撤销" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="349" y="2041.5" width="78" height="34" as="geometry" />
+        <mxCell id="n03CPPWkw_kPg7WMgdpi-84" value="部分退款" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1566.5" width="78" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
