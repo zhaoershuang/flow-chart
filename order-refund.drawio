@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T06:09:31.027Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="GYkls-bQLlzIWS9P-qcj" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T06:12:26.882Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="cKIngpMkjfv1oC8UgMuB" version="13.9.9" type="github">
   <diagram id="IIBS6fkNnDVbYmw5l0Qb" name="第 1 页">
     <mxGraphModel dx="2222" dy="-59" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -466,6 +466,12 @@
         </mxCell>
         <mxCell id="n03CPPWkw_kPg7WMgdpi-213" value="1:1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="151" y="2780" width="29" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="n03CPPWkw_kPg7WMgdpi-217" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-372" y="3338" width="10" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="n03CPPWkw_kPg7WMgdpi-218" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=#EA6B66;strokeWidth=1;fillColor=#ffffff;gradientColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-381" y="3263" width="24" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
