@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T02:46:34.077Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="EPh-436y_b-I3es4Q1Uj" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T02:53:33.434Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="xGLpJxG87liSLwVVsxJo" version="14.1.8" type="github">
   <diagram id="Wc-KlJpiXTT7ANUVL1O2" name="第 1 页">
     <mxGraphModel dx="2224" dy="732" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DArMAvbHiKXC-84_z5ol-40" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="163" y="438" width="120" height="86" as="geometry" />
+        </mxCell>
         <mxCell id="DArMAvbHiKXC-84_z5ol-33" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-323.99" y="306" width="500" height="60" as="geometry" />
         </mxCell>
@@ -25,8 +28,8 @@
         <mxCell id="DArMAvbHiKXC-84_z5ol-7" value="其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="144" width="100" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="DArMAvbHiKXC-84_z5ol-9" value="&lt;font style=&quot;font-size: 16px&quot;&gt;外部渠道&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-121" y="58" width="74" height="19" as="geometry" />
+        <mxCell id="DArMAvbHiKXC-84_z5ol-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;外部渠道&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-129" y="57" width="90" height="21" as="geometry" />
         </mxCell>
         <mxCell id="DArMAvbHiKXC-84_z5ol-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="286" y="112.5" width="455" height="111" as="geometry" />
@@ -40,14 +43,33 @@
         <mxCell id="DArMAvbHiKXC-84_z5ol-15" value="其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="597" y="148" width="100" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="DArMAvbHiKXC-84_z5ol-16" value="&lt;font style=&quot;font-size: 16px&quot;&gt;融易算渠道&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="459" y="64" width="90" height="19" as="geometry" />
+        <mxCell id="DArMAvbHiKXC-84_z5ol-16" value="&lt;font style=&quot;font-size: 20px&quot;&gt;融易算渠道&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="449" y="63" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="DArMAvbHiKXC-84_z5ol-36" value="拆单一拆多" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="DArMAvbHiKXC-84_z5ol-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="481" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="84" y="450" />
+              <mxPoint x="219" y="450" />
+              <mxPoint x="219" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DArMAvbHiKXC-84_z5ol-39" value="并单多并一" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;dashed=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="DArMAvbHiKXC-84_z5ol-17" target="DArMAvbHiKXC-84_z5ol-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="84" y="512" />
+              <mxPoint x="218" y="512" />
+              <mxPoint x="218" y="482" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="DArMAvbHiKXC-84_z5ol-17" value="&lt;font style=&quot;font-size: 20px&quot;&gt;渠道订单&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-231.87" y="440" width="315.75" height="87" as="geometry" />
+          <mxGeometry x="-231.86" y="438" width="315.75" height="87" as="geometry" />
         </mxCell>
         <mxCell id="DArMAvbHiKXC-84_z5ol-18" value="&lt;font style=&quot;font-size: 20px&quot;&gt;融易算订单&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355.63" y="437" width="315.75" height="87" as="geometry" />
+          <mxGeometry x="352.12" y="438" width="315.75" height="87" as="geometry" />
         </mxCell>
         <mxCell id="DArMAvbHiKXC-84_z5ol-28" value="&lt;font style=&quot;font-size: 20px&quot;&gt;pull&lt;/font&gt;" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="DArMAvbHiKXC-84_z5ol-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -75,6 +97,9 @@
         </mxCell>
         <mxCell id="DArMAvbHiKXC-84_z5ol-34" value="&lt;font style=&quot;font-size: 20px&quot;&gt;订单同步&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="-422" y="325.5" width="90" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="DArMAvbHiKXC-84_z5ol-41" value="&lt;font style=&quot;font-size: 14px&quot;&gt;渠道订单转化&lt;br&gt;为融易算订单&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="538" width="94" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
