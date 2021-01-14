@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-14T06:34:14.610Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="WkCXIrk1iHUNJTKcd-y6" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-14T07:09:26.867Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="uZFDADyTTtdmZ1jaehc2" version="14.1.8" type="github">
   <diagram id="bf80UPLbCTyl_fY6sAvL" name="第 1 页">
-    <mxGraphModel dx="3685" dy="1448" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4310" dy="1643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1569,7 +1569,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-399" value="融易算渠道下单" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;dashed=1;shadow=0;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="-841" y="2934" width="864" height="909" as="geometry" />
+          <mxGeometry x="-841" y="2928" width="864" height="915" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-400" value="企业主/官网" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="-570" y="2551" width="100" height="1282" as="geometry" />
@@ -1899,6 +1899,15 @@
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-550" value="支付通知" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1">
           <mxGeometry x="-799" y="3592" width="811" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="e-44g8FwVzKqQIyxse7l-551" value="鹊桥后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="333" y="2543" width="100" height="1282" as="geometry" />
+        </mxCell>
+        <mxCell id="e-44g8FwVzKqQIyxse7l-553" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;labelBackgroundColor=none;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="e-44g8FwVzKqQIyxse7l-551">
+          <mxGeometry x="45" y="1088" width="10" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="e-44g8FwVzKqQIyxse7l-556" value="微信" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;shadow=0;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="791" y="2585" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
