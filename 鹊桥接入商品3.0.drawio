@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T03:12:48.335Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="XcflqttZr03J9DkOyYcR" version="14.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T03:15:17.780Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="aXa-J7uvwcunXABaz2Aw" version="14.2.3" type="github">
   <diagram id="QVtK0J8Mp7qvg03k-yFJ" name="第 1 页">
     <mxGraphModel dx="2837" dy="33" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -673,12 +673,6 @@
             <mxPoint x="1329.9899999999998" y="2588.2" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BfFZ2of9FClNFI7ontlP-58" value="选择区域触发" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="940" y="2576" as="sourcePoint" />
-            <mxPoint x="1128" y="2576" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="BfFZ2of9FClNFI7ontlP-59" value="返回spu列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.155;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BfFZ2of9FClNFI7ontlP-54">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="942" y="2643" as="targetPoint" />
@@ -878,6 +872,12 @@
               <mxPoint x="1359" y="3035" />
             </Array>
             <mxPoint x="1338.9999999999995" y="3055" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfFZ2of9FClNFI7ontlP-140" value="选择区域触发" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="2582" as="sourcePoint" />
+            <mxPoint x="1136" y="2582" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
