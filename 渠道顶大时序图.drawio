@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T07:54:32.795Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="k8FKvJQ5oR128pn-14io" version="14.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-23T02:30:41.440Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="mEXOFx9u5tgjPKLmyMbg" version="14.2.6" type="github">
   <diagram id="bf80UPLbCTyl_fY6sAvL" name="第 1 页">
-    <mxGraphModel dx="3764" dy="1494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4037" dy="1633" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1143,11 +1143,11 @@
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-307" value="输入拆分的数量以及对应&lt;br&gt;的实付金额与总金额抹平" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-841" y="1018" as="sourcePoint" />
+            <mxPoint x="-834" y="996" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-816" y="1018" />
+              <mxPoint x="-809" y="996" />
             </Array>
-            <mxPoint x="-836" y="1038" as="targetPoint" />
+            <mxPoint x="-829" y="1016" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-308" value="有报单人直接置位&lt;br&gt;有归属人待跟进" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
@@ -2023,6 +2023,15 @@
               <mxPoint x="486" y="3148" />
               <mxPoint x="486" y="3148" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zh3XinUK1DfHiaIwHVZ9-1" value="输入拆分的结算金额与总结算金额抹平" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-831" y="1028" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-806" y="1028" />
+            </Array>
+            <mxPoint x="-826" y="1048" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
