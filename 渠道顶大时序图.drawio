@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T05:48:06.101Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="2aCQdeX7yMaW8Xak0y5R" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T06:05:54.716Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="qf-hh0R4BHV0HtAJrcfX" version="14.2.7" type="github">
   <diagram id="bf80UPLbCTyl_fY6sAvL" name="第 1 页">
-    <mxGraphModel dx="4037" dy="1633" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3764" dy="1494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VAIqSaRwFF4f153qejaJ-22" value="" style="html=1;rounded=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2087" y="1831" width="600" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-1874" y="1850" width="10" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="1860" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-25" value="&lt;span style=&quot;text-align: left&quot;&gt;查询订单信息&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="VAIqSaRwFF4f153qejaJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1861.9999999999998" y="1860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-26" value="返回订单信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="VAIqSaRwFF4f153qejaJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1860.0000000000002" y="1936" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-1518" y="1865" width="10" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-28" value="&lt;span style=&quot;text-align: left&quot;&gt;查询订单信息&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="VAIqSaRwFF4f153qejaJ-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1675" y="1865" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-29" value="&lt;span style=&quot;text-align: left&quot;&gt;输入渠道订单编号&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.023;exitY=0.066;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="VAIqSaRwFF4f153qejaJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2068.77" y="1851.498" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-30" value="返回订单信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="VAIqSaRwFF4f153qejaJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2069" y="1944.0500000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-31" value="至少操作两次有两条渠道订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1487" y="1879" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1462" y="1879" />
+            </Array>
+            <mxPoint x="-1482" y="1899" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-32" value="返回订单信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="VAIqSaRwFF4f153qejaJ-27" target="VAIqSaRwFF4f153qejaJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1673" y="1941" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-33" value="提示已转化订单无法选择" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.8;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1694" y="1893" as="sourcePoint" />
+            <mxPoint x="-2071" y="1892.565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-34" value="选择多个订单其中的一个手机号作为客户手机号" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2067" y="1965" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-2042" y="1965" />
+            </Array>
+            <mxPoint x="-2062" y="1985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-35" value="校验是否已转化" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1670" y="1880" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1645" y="1880" />
+            </Array>
+            <mxPoint x="-1665" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-44g8FwVzKqQIyxse7l-394" value="普通合并" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;dashed=1;dashPattern=1 2;fillColor=#b0e3e6;strokeColor=#0e8088;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-2144" y="1343" width="702" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="e-44g8FwVzKqQIyxse7l-363" value="多并一" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;dashed=1;shadow=0;dashPattern=1 2;" parent="1" vertex="1">
+          <mxGeometry x="-2217" y="1336" width="809" height="1032" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-20" value="" style="html=1;rounded=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-2087" y="1358" width="600" height="127" as="geometry" />
+        </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-550" value="支付通知" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#b46504;fillColor=#fad7ac;" parent="1" vertex="1">
           <mxGeometry x="-799" y="3592" width="811" height="236" as="geometry" />
         </mxCell>
@@ -23,7 +107,7 @@
           <mxGeometry x="920" y="2744" width="169" height="105" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-395" value="合并到融易算订单" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;dashed=1;dashPattern=1 2;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="-2144" y="1734" width="702" height="399" as="geometry" />
+          <mxGeometry x="-2144" y="1826" width="702" height="539" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-182" value="新增子订单" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;dashed=1;shadow=0;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="791" y="471" width="932" height="607" as="geometry" />
@@ -1134,11 +1218,11 @@
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-306" value="生成多个融易算订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-648" y="1114" as="sourcePoint" />
+            <mxPoint x="-648" y="1085" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-623" y="1114" />
+              <mxPoint x="-623" y="1085" />
             </Array>
-            <mxPoint x="-643" y="1134" as="targetPoint" />
+            <mxPoint x="-643" y="1105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-307" value="输入拆分的数量以及对应&lt;br&gt;的实付金额与总金额抹平" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
@@ -1152,11 +1236,11 @@
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-308" value="有报单人直接置位&lt;br&gt;有归属人待跟进" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-649" y="1087" as="sourcePoint" />
+            <mxPoint x="-649" y="1132" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-624" y="1087" />
+              <mxPoint x="-624" y="1132" />
             </Array>
-            <mxPoint x="-644" y="1107" as="targetPoint" />
+            <mxPoint x="-644" y="1152" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-309" value="多并一" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;dashed=1;shadow=0;dashPattern=1 2;" parent="1" vertex="1">
@@ -1356,225 +1440,219 @@
           <mxGeometry x="-1124" y="1713" width="702" height="399" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-342" value="鹊桥前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1920" y="1268" width="100" height="875" as="geometry" />
+          <mxGeometry x="-1920" y="1268" width="100" height="1091" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="e-44g8FwVzKqQIyxse7l-342">
+          <mxGeometry x="46" y="109" width="10" height="99" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-343" value="鹊桥后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1736" y="1268" width="100" height="873" as="geometry" />
+          <mxGeometry x="-1736" y="1268" width="100" height="1099" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="e-44g8FwVzKqQIyxse7l-343">
+          <mxGeometry x="46" y="119" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-12" value="&lt;span style=&quot;text-align: left&quot;&gt;查询订单信息&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="e-44g8FwVzKqQIyxse7l-343" target="VAIqSaRwFF4f153qejaJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-126" y="119" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-13" value="返回订单信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="e-44g8FwVzKqQIyxse7l-343" source="VAIqSaRwFF4f153qejaJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-124" y="195" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-344" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-2079" y="1309" width="10" height="825" as="geometry" />
+          <mxGeometry x="-2079" y="1309" width="10" height="1053" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-345" value="销售运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2091" y="1216" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-346" value="mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1557" y="1268" width="88" height="871" as="geometry" />
+          <mxGeometry x="-1557" y="1268" width="88" height="1098" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-347" value="查看订单管理订单列表" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="e-44g8FwVzKqQIyxse7l-346" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-401" y="654" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-363" value="多并一" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;dashed=1;shadow=0;dashPattern=1 2;" parent="1" vertex="1">
-          <mxGeometry x="-2217" y="1336" width="809" height="803" as="geometry" />
+        <mxCell id="VAIqSaRwFF4f153qejaJ-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="e-44g8FwVzKqQIyxse7l-346">
+          <mxGeometry x="39" y="124" width="10" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-15" value="&lt;span style=&quot;text-align: left&quot;&gt;查询订单信息&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="e-44g8FwVzKqQIyxse7l-346" target="VAIqSaRwFF4f153qejaJ-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-118" y="124" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-364" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1874" y="1450" width="10" height="277" as="geometry" />
+          <mxGeometry x="-1874" y="1528" width="10" height="277" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-365" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1690" y="1524" width="10" height="190" as="geometry" />
+          <mxGeometry x="-1690" y="1603" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-366" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1518" y="1632" width="14" height="52" as="geometry" />
+          <mxGeometry x="-1518" y="1711" width="14" height="52" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-367" value="保存" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" target="e-44g8FwVzKqQIyxse7l-366" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1676.5" y="1632" as="sourcePoint" />
+            <mxPoint x="-1676.5" y="1711" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-368" value="成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="e-44g8FwVzKqQIyxse7l-366" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1684" y="1681.4" as="targetPoint" />
+            <mxPoint x="-1684" y="1760.4" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-369" value="返回结果&lt;br&gt;融易算订单进入待跟进列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="e-44g8FwVzKqQIyxse7l-364" edge="1">
+        <mxCell id="e-44g8FwVzKqQIyxse7l-369" value="返回结果&lt;br&gt;融易算订单进入待跟进列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2069" y="1715.1499999999996" as="targetPoint" />
+            <mxPoint x="-2069" y="1794.1499999999996" as="targetPoint" />
+            <mxPoint x="-1874" y="1792.15" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-370" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="e-44g8FwVzKqQIyxse7l-365" target="e-44g8FwVzKqQIyxse7l-364" edge="1">
+        <mxCell id="e-44g8FwVzKqQIyxse7l-370" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="e-44g8FwVzKqQIyxse7l-365" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1869.5" y="1645.6" as="targetPoint" />
+            <mxPoint x="-1864" y="1783.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-371" value="提交" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" target="e-44g8FwVzKqQIyxse7l-365" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1869.5" y="1524" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-372" value="选择多个未转化的渠道订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2064" y="1392" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-2039" y="1392" />
-            </Array>
-            <mxPoint x="-2059" y="1412" as="targetPoint" />
+            <mxPoint x="-1869.5" y="1603" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-373" value="保存" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1503" y="1647" as="sourcePoint" />
+            <mxPoint x="-1503" y="1726" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1478" y="1647" />
+              <mxPoint x="-1478" y="1726" />
             </Array>
-            <mxPoint x="-1498" y="1667" as="targetPoint" />
+            <mxPoint x="-1498" y="1746" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-374" value="点击合并创建" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" target="e-44g8FwVzKqQIyxse7l-364" edge="1">
+        <mxCell id="e-44g8FwVzKqQIyxse7l-374" value="点击合并创建" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=0.216;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="e-44g8FwVzKqQIyxse7l-344">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2052" y="1450" as="sourcePoint" />
+            <mxPoint x="-2052" y="1536" as="sourcePoint" />
+            <mxPoint x="-1874" y="1536" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-375" value="转为融易算订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1667" y="1574" as="sourcePoint" />
+            <mxPoint x="-1669" y="1633" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1642" y="1574" />
+              <mxPoint x="-1644" y="1633" />
             </Array>
-            <mxPoint x="-1662" y="1594" as="targetPoint" />
+            <mxPoint x="-1664" y="1653" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-376" value="选择普通合并" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1860" y="1478" as="sourcePoint" />
+            <mxPoint x="-1860" y="1557" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1835" y="1478" />
+              <mxPoint x="-1835" y="1557" />
             </Array>
-            <mxPoint x="-1855" y="1498" as="targetPoint" />
+            <mxPoint x="-1855" y="1577" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-377" value="有报单人直接置位&lt;br&gt;有归属人待跟进" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1668" y="1547" as="sourcePoint" />
+            <mxPoint x="-1670" y="1664" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1643" y="1547" />
+              <mxPoint x="-1645" y="1664" />
             </Array>
-            <mxPoint x="-1663" y="1567" as="targetPoint" />
+            <mxPoint x="-1665" y="1684" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-378" value="校验是否同一个客户" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1672" y="1520" as="sourcePoint" />
+            <mxPoint x="-1672" y="1599" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1647" y="1520" />
+              <mxPoint x="-1647" y="1599" />
             </Array>
-            <mxPoint x="-1667" y="1540" as="targetPoint" />
+            <mxPoint x="-1667" y="1619" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-379" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1874" y="1793" width="10" height="330" as="geometry" />
+          <mxGeometry x="-1874" y="1998" width="10" height="309" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-380" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1690" y="1912" width="10" height="190" as="geometry" />
+          <mxGeometry x="-1690" y="2096" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-381" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="-1518" y="2020" width="14" height="52" as="geometry" />
+          <mxGeometry x="-1518" y="2204" width="14" height="52" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-382" value="只增加关联关系" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" target="e-44g8FwVzKqQIyxse7l-381" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1676.5" y="2020" as="sourcePoint" />
+            <mxPoint x="-1676.5" y="2204" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-383" value="成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="e-44g8FwVzKqQIyxse7l-381" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1684" y="2069.4" as="targetPoint" />
+            <mxPoint x="-1684" y="2253.4" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-384" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2069" y="2103.1499999999996" as="targetPoint" />
-            <mxPoint x="-1874" y="2101.15" as="sourcePoint" />
+            <mxPoint x="-2069" y="2287.1499999999996" as="targetPoint" />
+            <mxPoint x="-1874" y="2285.15" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-385" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="e-44g8FwVzKqQIyxse7l-380" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1864" y="2092.5" as="targetPoint" />
+            <mxPoint x="-1864" y="2276.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-386" value="提交" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" target="e-44g8FwVzKqQIyxse7l-380" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1869.5" y="1912" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-387" value="选择多个未转化的渠道订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2064" y="1735" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-2039" y="1735" />
-            </Array>
-            <mxPoint x="-2059" y="1755" as="targetPoint" />
+            <mxPoint x="-1869.5" y="2096" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-388" value="保存" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1503" y="2035" as="sourcePoint" />
+            <mxPoint x="-1503" y="2219" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1478" y="2035" />
+              <mxPoint x="-1478" y="2219" />
             </Array>
-            <mxPoint x="-1498" y="2055" as="targetPoint" />
+            <mxPoint x="-1498" y="2239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-389" value="点击合并创建" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" target="e-44g8FwVzKqQIyxse7l-379" edge="1">
+        <mxCell id="e-44g8FwVzKqQIyxse7l-389" value="点击合并创建" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2052" y="1793" as="sourcePoint" />
+            <mxPoint x="-2058" y="1999" as="sourcePoint" />
+            <mxPoint x="-1880" y="1999.000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-390" value="绑定到已有融易算订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1669" y="1962" as="sourcePoint" />
+            <mxPoint x="-1670" y="2136" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1644" y="1962" />
+              <mxPoint x="-1645" y="2136" />
             </Array>
-            <mxPoint x="-1664" y="1982" as="targetPoint" />
+            <mxPoint x="-1665" y="2156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-391" value="选择合并到已有订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1860" y="1821" as="sourcePoint" />
+            <mxPoint x="-1860" y="2005" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1835" y="1821" />
+              <mxPoint x="-1835" y="2005" />
             </Array>
-            <mxPoint x="-1855" y="1841" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-392" value="校验是否同一个客户" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1672" y="1919" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-1647" y="1919" />
-            </Array>
-            <mxPoint x="-1667" y="1939" as="targetPoint" />
+            <mxPoint x="-1855" y="2025" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-393" value="确认订单信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1857" y="1879.49" as="sourcePoint" />
+            <mxPoint x="-1857" y="2063.49" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1832" y="1879.49" />
+              <mxPoint x="-1832" y="2063.49" />
             </Array>
-            <mxPoint x="-1852" y="1899.49" as="targetPoint" />
+            <mxPoint x="-1852" y="2083.49" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-394" value="普通合并" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;dashed=1;dashPattern=1 2;fillColor=#b0e3e6;strokeColor=#0e8088;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-2144" y="1370" width="702" height="361" as="geometry" />
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-396" value="填写订单编号" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1857" y="1851" as="sourcePoint" />
+            <mxPoint x="-1857" y="2035" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1832" y="1851" />
+              <mxPoint x="-1832" y="2035" />
             </Array>
-            <mxPoint x="-1852" y="1871" as="targetPoint" />
+            <mxPoint x="-1852" y="2055" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-399" value="融易算渠道下单" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;dashed=1;shadow=0;dashPattern=1 2;" parent="1" vertex="1">
@@ -1995,6 +2073,54 @@
               <mxPoint x="1123" y="-120" />
             </Array>
             <mxPoint x="1103" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-9" value="&lt;span style=&quot;text-align: left&quot;&gt;输入渠道订单编号&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.023;exitY=0.066;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="VAIqSaRwFF4f153qejaJ-8" parent="1" source="e-44g8FwVzKqQIyxse7l-344">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1944" y="1377" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-10" value="返回订单信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="VAIqSaRwFF4f153qejaJ-8" parent="1" target="e-44g8FwVzKqQIyxse7l-344">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1944" y="1453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-17" value="至少操作两次有两条渠道订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1487" y="1406" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1462" y="1406" />
+            </Array>
+            <mxPoint x="-1482" y="1426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-16" value="返回订单信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="VAIqSaRwFF4f153qejaJ-14" target="VAIqSaRwFF4f153qejaJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1673" y="1468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-18" value="提示已转化订单无法选择" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.8;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="e-44g8FwVzKqQIyxse7l-344">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1694" y="1420" as="sourcePoint" />
+            <mxPoint x="-1774" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-19" value="选择多个订单其中的一个手机号作为客户手机号" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2067" y="1492" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-2042" y="1492" />
+            </Array>
+            <mxPoint x="-2062" y="1512" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-21" value="校验是否已转化" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1670" y="1407" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-1645" y="1407" />
+            </Array>
+            <mxPoint x="-1665" y="1427" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
