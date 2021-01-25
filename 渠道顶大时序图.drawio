@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T01:22:06.059Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="EHqNsj3tSkQSZs4WJjKd" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T05:46:26.885Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="wm4kwMLugGUQ9L67tuYt" version="14.2.7" type="github">
   <diagram id="bf80UPLbCTyl_fY6sAvL" name="第 1 页">
-    <mxGraphModel dx="3529" dy="1374" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3764" dy="1494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -593,16 +593,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-162" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#b1ddf0;strokeColor=#10739e;" parent="e-44g8FwVzKqQIyxse7l-160" vertex="1">
-          <mxGeometry x="38" y="459" width="14" height="52" as="geometry" />
+          <mxGeometry x="38" y="436" width="14" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-163" value="修改+新增子订单" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="e-44g8FwVzKqQIyxse7l-160" target="e-44g8FwVzKqQIyxse7l-162" edge="1">
+        <mxCell id="e-44g8FwVzKqQIyxse7l-163" value="&lt;span style=&quot;text-align: left&quot;&gt;目标主订单增加补差子订单&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="e-44g8FwVzKqQIyxse7l-160" target="e-44g8FwVzKqQIyxse7l-162" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-120.5" y="459" as="sourcePoint" />
+            <mxPoint x="-120.5" y="436" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-164" value="成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="e-44g8FwVzKqQIyxse7l-160" source="e-44g8FwVzKqQIyxse7l-162" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-128" y="508.4000000000001" as="targetPoint" />
+            <mxPoint x="-128" y="485.4000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-170" value="进入跟进详情页" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
@@ -640,11 +640,11 @@
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-177" value="修改" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1457" y="61" as="sourcePoint" />
+            <mxPoint x="1457" y="38" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1482" y="61" />
+              <mxPoint x="1482" y="38" />
             </Array>
-            <mxPoint x="1462" y="81" as="targetPoint" />
+            <mxPoint x="1462" y="58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-178" value="填写订单编号" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
@@ -676,11 +676,11 @@
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-181" value="原补差子订单变为失效" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1288" y="-35.96" as="sourcePoint" />
+            <mxPoint x="1288" y="-30.96" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1313" y="-35.96" />
+              <mxPoint x="1313" y="-30.96" />
             </Array>
-            <mxPoint x="1293" y="-15.96" as="targetPoint" />
+            <mxPoint x="1293" y="-10.96" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-183" value="鹊桥前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
@@ -1577,15 +1577,6 @@
             <mxPoint x="-1852" y="1871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-44g8FwVzKqQIyxse7l-398" value="目标主订单增加补差子订单" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1288" y="-6" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1313" y="-6" />
-            </Array>
-            <mxPoint x="1292.999999999999" y="14" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="e-44g8FwVzKqQIyxse7l-399" value="融易算渠道下单" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;dashed=1;shadow=0;dashPattern=1 2;" parent="1" vertex="1">
           <mxGeometry x="-841" y="2928" width="864" height="915" as="geometry" />
         </mxCell>
@@ -1996,6 +1987,15 @@
         </mxCell>
         <mxCell id="VAIqSaRwFF4f153qejaJ-3" value="rocketMQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;labelBackgroundColor=none;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="946" y="2767" width="53" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="VAIqSaRwFF4f153qejaJ-4" value="拆分补差金额" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1098" y="-120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1123" y="-120" />
+            </Array>
+            <mxPoint x="1103" y="-100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
