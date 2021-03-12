@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T08:29:09.311Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="oicCHa-cSsdN8yeAK2nU" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T06:15:29.528Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="mfSkqwoQCJfghX_QplQR" version="14.2.9" type="github">
   <diagram id="Wc-KlJpiXTT7ANUVL1O2" name="第 1 页">
-    <mxGraphModel dx="2435" dy="1025" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2435" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -809,7 +809,7 @@
         <mxCell id="URw_SgKUcCVv19KRKVcu-66" value="待分配" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="3259.45" y="2761" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="URw_SgKUcCVv19KRKVcu-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-70" target="URw_SgKUcCVv19KRKVcu-75">
+        <mxCell id="URw_SgKUcCVv19KRKVcu-86" value="提炼线索" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-70" target="URw_SgKUcCVv19KRKVcu-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="URw_SgKUcCVv19KRKVcu-70" value="跟进中" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;" vertex="1" parent="1">
@@ -821,7 +821,7 @@
         <mxCell id="URw_SgKUcCVv19KRKVcu-72" value="挂起" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="3627.45" y="2883" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="URw_SgKUcCVv19KRKVcu-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-75">
+        <mxCell id="URw_SgKUcCVv19KRKVcu-93" value="创建合同" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-75">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3786.123675537109" y="2786" as="targetPoint" />
           </mxGeometry>
@@ -832,14 +832,14 @@
         <mxCell id="URw_SgKUcCVv19KRKVcu-75" value="已完成" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="3627.45" y="2761" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="URw_SgKUcCVv19KRKVcu-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-76" target="URw_SgKUcCVv19KRKVcu-79">
+        <mxCell id="URw_SgKUcCVv19KRKVcu-94" value="生成服务单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-76" target="URw_SgKUcCVv19KRKVcu-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="URw_SgKUcCVv19KRKVcu-76" value="&lt;span style=&quot;font-size: 15px ; color: rgb(64 , 64 , 64) ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word&quot;&gt;已生效&lt;br&gt;已创建合同&lt;/span&gt;" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="3794.45" y="2763" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="URw_SgKUcCVv19KRKVcu-79" value="&lt;span style=&quot;font-size: 15px ; color: rgb(64 , 64 , 64) ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word&quot;&gt;已创建服务单&lt;/span&gt;" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="3957.45" y="2763" width="100" height="50" as="geometry" />
+          <mxGeometry x="3973" y="2763" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="URw_SgKUcCVv19KRKVcu-83" value="用户下单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-84">
           <mxGeometry relative="1" as="geometry">
@@ -881,6 +881,79 @@
         </mxCell>
         <mxCell id="URw_SgKUcCVv19KRKVcu-105" value="支付状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2850" y="2286" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-106" value="用户支付" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-107" target="URw_SgKUcCVv19KRKVcu-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-107" value="&lt;font style=&quot;font-size: 14px&quot;&gt;初始化&lt;/font&gt;" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3068.45" y="3063" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-108" value="分配" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-109" target="URw_SgKUcCVv19KRKVcu-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-109" value="待分配" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3256.45" y="3063" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-110" value="提炼线索" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-111" target="URw_SgKUcCVv19KRKVcu-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-111" value="跟进中" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3436.45" y="3063" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-112" value="解除&lt;br&gt;挂起" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-113" target="URw_SgKUcCVv19KRKVcu-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-113" value="挂起" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3624.45" y="3185" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-114" value="创建合同" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3783.123675537109" y="3088" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-115" value="挂起" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-116" target="URw_SgKUcCVv19KRKVcu-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-116" value="已完成" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3624.45" y="3063" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-117" value="生成服务单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-118" target="URw_SgKUcCVv19KRKVcu-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-118" value="&lt;span style=&quot;font-size: 15px ; color: rgb(64 , 64 , 64) ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word&quot;&gt;已生效&lt;br&gt;已创建合同&lt;/span&gt;" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3791.45" y="3065" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-119" value="&lt;span style=&quot;font-size: 15px ; color: rgb(64 , 64 , 64) ; line-height: 1.74 ; letter-spacing: 0.008em ; outline-style: none ; overflow-wrap: break-word&quot;&gt;已创建服务单&lt;/span&gt;" style="html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Tahoma;align=center;fontSize=14;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3970" y="3065" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-120" value="用户下单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3057.901751708984" y="3086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-121" value="" style="ellipse;html=1;shape=endState;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2914.45" y="3071" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-122" value="渠道订单生成融易算订单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-123" target="URw_SgKUcCVv19KRKVcu-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3238.45" y="3168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-123" value="" style="ellipse;html=1;shape=endState;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="2914" y="3153" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-124" value="无" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3306.45" y="3114.236297607422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-125" value="有" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcc99;strokeColor=#36393d;" edge="1" parent="1" source="URw_SgKUcCVv19KRKVcu-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3492.0128967285154" y="3118.6807556152344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URw_SgKUcCVv19KRKVcu-126" value="有报单人？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="3256.45" y="3148" width="100" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
