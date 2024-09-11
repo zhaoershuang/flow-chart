@@ -94,6 +94,9 @@
         <mxCell id="iPnrtmUdlIL3VNnraX-A-27" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#FFFFFF;dashed=1;fontColor=#FEFAE0;" vertex="1" parent="1">
           <mxGeometry x="354" y="336" width="203" height="217" as="geometry" />
         </mxCell>
+        <mxCell id="iPnrtmUdlIL3VNnraX-A-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iPnrtmUdlIL3VNnraX-A-28" target="iPnrtmUdlIL3VNnraX-A-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-28" value="&lt;font color=&quot;#ffffff&quot;&gt;商品域&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FEFAE0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="425.5" y="345" width="60" height="30" as="geometry" />
         </mxCell>
@@ -177,6 +180,9 @@
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-57" value="质检报告" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#FFFFFF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="374.5" y="513" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iPnrtmUdlIL3VNnraX-A-59" value="报价配置" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#FFFFFF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="466.5" y="513" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
