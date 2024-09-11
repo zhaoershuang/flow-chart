@@ -175,6 +175,9 @@
         <mxCell id="iPnrtmUdlIL3VNnraX-A-56" value="配件配置" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#FFFFFF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="466.5" y="468" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="iPnrtmUdlIL3VNnraX-A-57" value="质检报告" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#FFFFFF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="374.5" y="513" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
