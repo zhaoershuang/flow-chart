@@ -107,16 +107,16 @@
           <mxGeometry x="733" y="209" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#FFFFFF;dashed=1;fontColor=#FEFAE0;" vertex="1" parent="1">
-          <mxGeometry x="574" y="352" width="198" height="201" as="geometry" />
+          <mxGeometry x="574" y="338" width="198" height="215" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-34" value="&lt;font color=&quot;#ffffff&quot;&gt;订单域&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FEFAE0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="638" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-35" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#FFFFFF;dashed=1;fontColor=#FEFAE0;" vertex="1" parent="1">
-          <mxGeometry x="786" y="383" width="184" height="170" as="geometry" />
+          <mxGeometry x="786" y="338" width="184" height="215" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-36" value="&lt;font color=&quot;#ffffff&quot;&gt;财务域&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FEFAE0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="855.5" y="390" width="60" height="30" as="geometry" />
+          <mxGeometry x="840" y="341" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-37" value="供货商入驻" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#FFFFFF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="374.5" y="242" width="70" height="30" as="geometry" />
