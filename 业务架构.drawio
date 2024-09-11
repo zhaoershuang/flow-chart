@@ -230,22 +230,22 @@
           <mxGeometry x="149" y="639" width="819" height="58" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-104" value="ERP系统" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="652.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="313" y="652.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-105" value="合同中心" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="362" y="652.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="437" y="652.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-106" value="基础服务" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="457" y="652.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="560" y="652.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-107" value="用户中台" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="172" y="652.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="187" y="653.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-108" value="支付中心" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="552" y="653.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="697" y="653.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-109" value="公众号管理后台" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
-          <mxGeometry x="646" y="653.5" width="117" height="30" as="geometry" />
+          <mxGeometry x="827" y="652.5" width="117" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iPnrtmUdlIL3VNnraX-A-110" value="征信上报" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeWidth=1;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="1">
           <mxGeometry x="681.25" y="580" width="70" height="30" as="geometry" />
